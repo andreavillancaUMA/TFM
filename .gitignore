@@ -1,0 +1,20 @@
+﻿# Ignorar todo de forma predeterminada
+*
+
+# Conservar este archivo de configuración
+!.gitignore
+
+# Carpetas seleccionadas
+!baf_xai_export/
+!baf_xai_export/**
+!final_outputs/
+!final_outputs/**
+
+# Archivo demasiado grande para GitHub
+baf_xai_export/processed_arrays.npz
+
+# Archivos seleccionados de la carpeta principal
+!1_TFM_EDA_Training_Evaluation.ipynb
+!2_TFM_XAI_Benchmark.ipynb
+!3_TFM_FutureWork_ImbalancedLosses.ipynb
+!4_TFM_Thesis_Memory.docx

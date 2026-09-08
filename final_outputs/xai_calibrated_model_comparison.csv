@@ -1,0 +1,4 @@
+score_type,mean_score_or_prob,true_test_fraud_rate,auc,brier
+Original TabNet score,0.141013,0.014746,0.849977,0.066666
+Platt-calibrated probability,0.011498,0.014746,0.849977,0.013605
+Isotonic-calibrated probability,0.011284,0.014746,0.848436,0.013527

@@ -1,0 +1,2 @@
+,"Fidelity (mean Pearson r, higher=better)","Robustness (relative max-sensitivity, lower=better)","Stability (mean cosine similarity, higher=better)"
+TabNet_native,0.0369,9.8099,0.6596

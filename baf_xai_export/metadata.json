@@ -1,0 +1,50 @@
+{
+  "random_state": 42,
+  "target": "fraud_bool",
+  "split_strategy": "temporal",
+  "train_months": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "val_month": 6,
+  "test_month": 7,
+  "sentinel_missing_cols": [
+    "prev_address_months_count",
+    "current_address_months_count",
+    "bank_months_count",
+    "session_length_in_minutes",
+    "device_distinct_emails_8w"
+  ],
+  "negative_missing_cols": [
+    "intended_balcon_amount"
+  ],
+  "dropped_columns": [
+    "prev_address_months_count",
+    "device_fraud_count",
+    "intended_balcon_amount"
+  ],
+  "class_weight_dict": {
+    "0": 0.5051795922413508,
+    "1": 48.76634768740032
+  },
+  "tabnet_params": {
+    "n_d": 16,
+    "n_a": 16,
+    "n_steps": 5,
+    "gamma": 1.5,
+    "lambda_sparse": 0.001,
+    "mask_type": "entmax"
+  },
+  "test_metrics": {
+    "auc_roc": 0.849977130714991,
+    "recall": 0.5637254901960784,
+    "precision": 0.09198948691578106,
+    "f1": 0.15816877885843403,
+    "fpr": 0.08327831053817535
+  },
+  "n_features_after_preprocessing": 48
+}

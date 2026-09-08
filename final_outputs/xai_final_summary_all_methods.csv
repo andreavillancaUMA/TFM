@@ -1,0 +1,6 @@
+,"Fidelity (mean Pearson r, higher=better)","Robustness (relative max-sensitivity, lower=better)","Stability (mean cosine similarity, higher=better)"
+TabNet_native,0.0369,9.8099,0.6596
+SHAP_Kernel,0.5392,12.9982,0.3414
+SHAP_Gradient,0.2888,13.8089,0.1662
+LIME,0.1557,1.1472,0.948
+Integrated_Gradients,0.3955,10.5846,0.2631
