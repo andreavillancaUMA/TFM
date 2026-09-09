@@ -33,6 +33,7 @@ This repository trains a TabNet classifier on the [Bank Account Fraud (BAF)](htt
 | File | Description |
 |---|---|
 | `.gitignore` | Excludes environment files, caches, and large/regeneratable artifacts from version control. |
+| `.gitattributes` | Configures Git LFS to manage Base.csv, allowing this large dataset to be stored and versioned without exceeding GitHub’s standard file-size limit. |
 
 ## Reproducing the Results
 
