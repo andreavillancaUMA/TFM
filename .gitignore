@@ -18,3 +18,12 @@ baf_xai_export/processed_arrays.npz
 !2_TFM_XAI_Benchmark.ipynb
 !3_TFM_FutureWork_ImbalancedLosses.ipynb
 !4_TFM_Thesis_Memory.docx
+
+# README principal
+!README.md
+
+# Configuración de Git LFS
+!.gitattributes
+
+# Dataset gestionado mediante Git LFS
+!Base.csv
